@@ -1,0 +1,19 @@
+{
+  "name": "Weather-Journal-App-master",
+  "version": "1.0.0",
+  "description": "- [x]  Node and Express Environment:\r     - [x]  Node and Express should be installed on the local machine. The project file `server.js` should require `express()`, and should create an instance of their app using express.\r     - [x]  The Express app instance should be pointed to the project folder with .html, .css, and .js files.\r - [x]  Project Dependencies:\r     - [x]  The ‘cors’ package should be installed in the project from the command line, required in the project file server.js, and the instance of the app should be setup to use cors().\r     - [x]  The body-parser package should be installed and included in the project.\r - [x]  Local Server:\r     - [x]  Local server should be running and producing feedback to the Command Line through a working callback function.\r - [x]  API Credentials:\r     - [x]  Create API credentials on [OpenWeatherMap.com](http://openweathermap.com/)",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
